@@ -6,7 +6,7 @@ const StudentsList = () => {
     return (
         <div className='flex containes justify-between gap-[20px] flex-wrap'>
             {students.map(item => (
-                <div className='p-2 bg-white w-[300px] rounded-md'>
+                <div className='p-2 bg-white w-[300px] mx-auto rounded-md'>
                     <img className='mb-3' src={item.img} alt="img" width={300} height={200}/>
                     <h2 className='font-semibold text-[20px] mb-2'>{item.name} - {item.surname}</h2>
                     <p className='font-semibold text-[18px]'>Yosh: {item.age}</p>
